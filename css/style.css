@@ -152,3 +152,59 @@ header, .navbar {
 .card-body {
     text-align: center;
 }
+
+/*trabalhe conosco*/
+
+#apply-area {
+  height: 500px;  
+}
+
+#apply-area  .container-fluid , #apply-area .row {
+  height: 100%;
+}
+
+#apply-area .apply-box {
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img {
+    background-image: url('../imagem/slider.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h4, #pattern-img p {
+    color: #f9f9f9;
+}
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#pattern-img p{
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+   display: block;
+   height: auto;
+   width: 180px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   background-color: rgb(68, 192, 230);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  
+}
+#apply-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: rgb(68, 192, 230);
+}
