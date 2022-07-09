@@ -147,10 +147,38 @@ header, .navbar {
     color: rgb(79, 33, 247);
 }
 
+/*Dados da empresa*/
+
+.circle-box div {
+  padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+#data-area p {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+    
+}
+#data-area {
+    background-image: url('../imagem/parallax.jpg');
+    background-position: center;
+   
+}
 /*Time*/
 
 .card-body {
     text-align: center;
+}
+.card-img-top {
+    width: 100%;
+    
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
 }
 
 /*trabalhe conosco*/
