@@ -198,18 +198,21 @@ header, .navbar {
 }
 
 #apply-area .apply-box {
-    background-image: url('../imagem/banner01.webp'); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
-    padding: 50px; 
+    padding: 70px 50px; 
 }
 
-#company-img,  #apply-area {
+#company-img {
     background-image: url('../imagem/slider.jpg');
+    background-size: cover;
     height: 100%;
- 
+}
+#pattern-img {
+    background-image: url('../imagem/parallax1.jpg');
+    background-position: end;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #pattern-img h4, #pattern-img p {
