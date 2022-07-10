@@ -167,7 +167,10 @@ header, .navbar {
 #data-area {
     background-image: url('../imagem/parallax.jpg');
     background-position: center;
-   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 /*Time*/
 
@@ -180,11 +183,14 @@ header, .navbar {
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }
-
+.card-title{
+    font-weight: bold;
+}
 /*trabalhe conosco*/
 
 #apply-area {
-  height: 500px;  
+  height: 500px; 
+  
 }
 
 #apply-area  .container-fluid , #apply-area .row {
@@ -192,15 +198,18 @@ header, .navbar {
 }
 
 #apply-area .apply-box {
-    background-color: rgb(39, 38, 38);
+    background-image: url('../imagem/banner01.webp'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
-    padding: 70px 50px;
+    padding: 50px; 
 }
 
-#company-img {
+#company-img,  #apply-area {
     background-image: url('../imagem/slider.jpg');
-    background-size: cover;
     height: 100%;
+ 
 }
 
 #pattern-img h4, #pattern-img p {

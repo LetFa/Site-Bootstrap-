@@ -116,7 +116,11 @@ $(document).ready(function() {
    }); 
 
    //parallax
+   setTimeout(function(){
 
+      $('#data-area').parallax({imageSrc: 'img/codigoparallax.webp'});
+
+   }, 250);
    
    
 });
