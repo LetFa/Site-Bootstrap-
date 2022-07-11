@@ -147,6 +147,8 @@ header, .navbar {
     color: rgb(79, 33, 247);
 }
 
+
+
 /*Dados da empresa*/
 
 .circle-box div {
@@ -172,6 +174,8 @@ header, .navbar {
     background-attachment: fixed;
     
 }
+
+
 /*Time*/
 
 .card-body {
@@ -186,6 +190,8 @@ header, .navbar {
 .card-title{
     font-weight: bold;
 }
+
+
 /*trabalhe conosco*/
 
 #apply-area {
@@ -247,4 +253,33 @@ header, .navbar {
     color: white;
     background-color: transparent;
     border-color: rgb(68, 192, 230);
+}
+
+/*Portfolio*/
+
+.project-box{
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #fff;
+    background-color: rgb(67, 55, 112);
+    border-color: rgb(67, 55, 112);
 }

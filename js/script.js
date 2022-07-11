@@ -22,9 +22,6 @@ $(document).ready(function() {
 
     });
 
-    
-
-
     let containerB = document.getElementById("circleB");
 
     let circleB = new ProgressBar.Circle(containerB, {
@@ -46,9 +43,6 @@ $(document).ready(function() {
 
     });
 
-    
-
-    
     let containerC = document.getElementById("circleC");
 
     let circleC = new ProgressBar.Circle(containerC, {
@@ -69,9 +63,6 @@ $(document).ready(function() {
      }
 
     });
-    
-   
-   
    
    let containerD = document.getElementById("circleD");
 
@@ -115,12 +106,43 @@ $(document).ready(function() {
 
    }); 
 
-   //parallax
-   setTimeout(function(){
+   //Cores do portfólio
 
-      $('#data-area').parallax({imageSrc: 'img/codigoparallax.webp'});
+   $('.filter-btn').on('click', function(){
 
-   }, 250);
-   
+    let type = $(this).attr('id');
+    let boxes = $('.project-box');
+
+    $('.main-btn').removeClass('active');
+    $(this).addClass('active');
+    
+    if(type == 'dsg-btn'){
+       eachBoxes('dsg', boxes);
+    }else if(type == 'dev-btn'){
+      eachBoxes('dev', boxes);
+    }else if(type == 'seo-btn'){
+      eachBoxes('seo', boxes);
+    }else {
+      eachBoxes('all', boxes);
+    }
+
+   });
+
+   function eachBoxes(type, boxes){
+
+    if(type == 'all'){
+      $(boxes).fadeIn(); /*aparecer todas as caixinhas conforme for clicado*/
+    }else {
+      $(boxes).each(function(){
+         /*se eu estiver a class do tipo que eu enviei*/
+        if(!$(this).hasClass(type)) {
+         $(this).fadeOut('slow'); /*fadeOut esconde a caixinha*/
+        }else {
+         $(this).fadeIn(); /*fadeIn mostra a caixinha*/
+        }
+      });
+    }
+
+   }
    
 });
