@@ -283,3 +283,84 @@ header, .navbar {
     background-color: rgb(67, 55, 112);
     border-color: rgb(67, 55, 112);
 }
+
+/*newsletter*/
+
+#news-area {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid rgb(67, 55, 112);
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid rgb(67, 55, 112);
+    background-color: rgb(67, 55, 112);
+    text-transform: uppercase;
+    color: white;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color:#fff;
+    color: rgb(67, 55, 112);
+}
+
+/*call to action*/
+
+#call-area {
+    background-color: rgb(67, 55, 112);
+    text-transform: uppercase;
+    
+}
+#call-area .container{
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p{
+    color: #fff;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px; /*espaçamento de letra*/
+    margin-bottom: 0;
+    display: inline; /*para ficar um do lado do outro*/
+    height: 60px;
+    line-height: 60px; /*pra centralizar a altura*/
+}
+
+#call-area #call-btn {
+    background-color: white;
+    color: rgb(67, 55, 112);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
