@@ -15,6 +15,7 @@ p, li {
     color: rgb(67, 55, 112);
     font-size: 14px;
 }
+
 /*Barra de navegações*/
 header, .navbar {
     background-color: rgb(255, 255, 255);
@@ -534,6 +535,7 @@ header, .navbar {
 
 /*Responsive para celular*/
 @media(max-width:425px) {
+
    
    /*slider*/
    #mainSlider {
