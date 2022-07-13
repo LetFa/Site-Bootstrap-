@@ -364,3 +364,74 @@ header, .navbar {
     width: auto;
     letter-spacing: 2px;
 }
+
+/*Footer*/
+
+#rodape-area {
+    text-align: center;
+}
+
+.rodape-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(67, 55, 112);
+}
+
+.rodape-box i {
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.rodape-box p {
+    font-size: 16px;
+}
+
+.rodape-title {
+    font-weight: bold;
+    color: rgb(67, 55, 112);
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+#rodape-form input[type="text"], #rodape-form input[type="email"], #rodape-form textarea {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#rodape-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#rodape-form .main-btn:hover {
+    color: rgb(68, 192, 230);
+}
+
+
+/*Copy*/
+
+#copy-area {
+  background-color: #f9f9f9;
+}
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+#copy-area .container p {
+    margin-bottom: 0;
+}
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+}
+#copy-area .container a:hover {
+    color: rgb(68, 192, 230);
+}
